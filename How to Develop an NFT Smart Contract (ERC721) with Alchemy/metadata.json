@@ -1,0 +1,12 @@
+{
+  "description": "Your NFT Description",
+  "external_url": "Your URL",
+  "image": "IPFS URL of your image",
+  "name": "Your NFT Name",
+  "attributes": [
+    {
+      "trait_type": "Attribute Type",
+      "value": "Attribute Value"
+    }
+  ]
+}
