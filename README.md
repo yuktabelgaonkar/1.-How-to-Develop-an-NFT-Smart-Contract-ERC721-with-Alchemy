@@ -1,8 +1,9 @@
 # How-to-Develop-an-NFT-Smart-Contract-ERC721-with-Alchemy
 Learn to develop an ERC721 NFT smart contract using Alchemy. Utilize Solidity, Remix IDE, and OpenZeppelin for secure and efficient development on the Ethereum blockchain, testing on Sepolia testnet via Alchemy for deployment and testing.
+
 Here's a step-by-step guide on how to develop and deploy an ERC721 (NFT) smart contract using Alchemy, OpenZeppelin, Remix, and the Ethereum Sepolia testnet. This tutorial is designed for beginners and includes all the necessary updates as of now.
 
-Step 1: Setting Up Your Development Environment
+Step 1: Setting Up Your Development Environment 
 1.1 Create a Free Alchemy Account
 Sign Up: Go to Alchemy and sign up for a free account.
 Create an App:
@@ -22,6 +23,7 @@ Chain ID: 11155111
 Currency Symbol: Sepolia ETH
 Block Explorer URL: https://sepolia.etherscan.io/
 Save and switch to the Alchemy Sepolia network.
+
 Step 2: Writing the Smart Contract
 2.1 OpenZeppelin Contract Wizard
 Visit OpenZeppelin Wizard: Go to OpenZeppelin Contract Wizard.
@@ -61,6 +63,7 @@ function safeMint(address to, string memory uri) public {
     _safeMint(to, tokenId);
     _setTokenURI(tokenId, uri);
 }
+
 Step 3: Deploying the Smart Contract
 3.1 Compile the Contract
 Compile: Click on the Solidity compiler and compile NFT.sol.
@@ -71,6 +74,7 @@ Select "Injected Web3" as the environment.
 Ensure MetaMask is connected to Alchemy Sepolia.
 Select the contract and click "Deploy".
 Confirm the transaction in MetaMask.
+
 Step 4: Minting NFTs
 4.1 Get Sepolia Test ETH
 Sepolia Faucet: Go to Sepolia Faucet, enter your wallet address, and get some Sepolia ETH.
@@ -101,6 +105,7 @@ Use the safeMint function:
 Address: Your MetaMask address.
 URI: IPFS URL of the metadata.
 Confirm the transaction in MetaMask.
+
 Step 5: Visualize on OpenSea
 OpenSea Testnet: Go to OpenSea Testnet.
 Login: Connect your MetaMask wallet.
